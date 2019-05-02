@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	font-size: 14px;
+}
+
+/* +++++++++++++++++++ CSS For Header Section +++++++++++++++++++*/ 
+.header-social{
+	margin-top: 66px;
+}
+.header-social ul li, 
+.login-register ul li{
+	display: inline-block;
+}
+.header-social ul li{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 1px solid #898989;
+	text-align: center;
+	line-height: 32px;
+}
+
+.header-social ul a{
+	color: #000;
+}
+.header-social ul a:hover li{
+	color: #fff;
+	background-color: #e74e40;
+	border-color: #e74e40;
+}
+.header-logo{
+	margin-top: 30px;
+}
+.login-register{
+	margin-top: 80px;
+}
+.login-register ul li a{
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+.login-register ul li a:hover{
+   color: #e74e40;
+}
+
+/* +++++++++++++++++++ CSS For Navbar Section +++++++++++++++++++*/ 
+
+
+.navbar-nav>li>a,
+.dropdown-menu>li>a{
+    font-size: 18px;
+    color: black;
+}
+.nav>li>a:focus, 
+.nav>li>a:hover {
+	 color: #e74e40;
+     background: none; 
+}
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+     color: #e74e40;
+     background:none; 
+}
+.dar{
+	font-size: 18px;
+	margin-top: 12px;
+}
+#Navbar{
+	border: 1px solid #000;
+	margin-top: 17px;
+}
+.bg-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    float: right;
+}
+
+
+/* +++++++++++++++++++ Banner for CSS +++++++++++++++++++*/ 
+
+.carousel-caption {
+    padding-bottom: 100px;
+
+}
+.carousel-caption h1{
+	font-size: 50px;
+}
+.ban-para {
+    text-align: justify;
+    font-size: 24px;
+    margin-top: 75px;
+}
+.btn {
+	background: #fff;
+	color: #000;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 75px;
+}
+.btn:hover ,
+.btn:active, 
+.btn:focus{
+	background: none;
+	color:#e74e40;
+	border-color: #fff;
+	color: #fff;
+	outline: 0 !important;
+}
+
+.carousel-indicators li{
+	width: 15px;
+	height: 15px;
+}
+.carousel-indicators .active {
+	width: 17px;
+	height: 17px;
+	background: #e74e40; 
+}
+
+
+/* +++++++++++++++++++ Paragrap for CSS +++++++++++++++++++*/ 
+
+#paragrap{
+	margin-top: 80px;
+}
+.par{
+	border: 2px solid #8b8b8b;
+	text-align: center;
+	font-size: 50px;
+}
+.par p{
+	text-align: justify;
+	padding: 5px;
+}
+.par-par:hover{
+	background: #e74e40;
+	color: #fff; 
+	border: none;
+}
+
+/*++++++++++++ Our latest Tutorials  ++++++++++++ */
+
+.Tuto-head{
+	text-align: center;
+	margin-top: 100px;
+}
+.tuto{
+	margin-top: 50px;
+}
+.blog-1 h4, 
+.blog-2 h4, 
+.blog-3 h4, 
+.blog-4 h4{
+	text-align: center;
+}
+.blog-1 p span,
+.blog-2 p span,
+.blog-3 p span,
+.blog-4 p span{
+    float: right;
+}
+.blog-1 h4:hover{
+	color: #e74e40;
+}
+.blog-1 a, 
+.blog-2 a, 
+.blog-3 a, 
+.blog-4 a{
+    color: #e74e40;
+    text-decoration: none;
+}
+.blog-1 .btn,
+.blog-2 .btn,
+.blog-3 .btn,
+.blog-4 .btn{
+	width: 68px;
+	height: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.blog-1 .btn:hover,
+.blog-1 .btn:active, 
+.blog-1 .btn:focus{
+	background:#e74e40;
+	color:#fff;
+	border-color: #fff;
+	outline: 0 !important;
+}
+
+/*++++++++++++ Subscriber For CSS  ++++++++++++ */
+
+#Subscriber{
+	margin-top: 100px;
+	background: #9e9e9e;
+	height: 410px;
+}
+.sub-contant h1{
+	padding-top: 68px;
+	font-size: 30px;
+	color: #fff;
+}
+.sub-contant p{
+	padding-top: 28px;
+	font-size: 18px;
+	color:#fff;
+}
+.sub-contant input{
+	width: 550px;
+	height: 40px;
+	margin-top: 44px;
+	padding: 5px;
+	border: 1px solid #000;
+}
+.sub-contant .btn{
+	width: 160px;
+	height: 60px;
+	font-size: 18px;
+	margin-top:  38px;
+	background: #e74e40;
+	color: #fff;
+	border-color: #e74e40;
+}
+
+/*++++++++++++ Popular tag For CSS  ++++++++++++*/
+
+#popular{
+	background: #DDE0E7;
+	height: 340px;
+}
+.fotter-logo{
+	border-right: 1px solid #000;
+}
+.fotter-logo a img{
+	text-align: center;
+	margin-top: 50px;
+}
+.fotter-logo p{
+	text-align: justify;
+	font-size: 14px;
+	padding: 8px;
+	margin-top: 25px;
+}
+.p-tag{
+	margin-top: 50px;
+}
+.p-title p{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.border-popular{
+	border-right: 1px solid #000;
+	height:268px;
+}
+.first-row{
+	margin-top: 24px;
+}
+.second-row{
+	margin-top: 78px;
+}
+.third-row{
+	margin-top: 128px;
+}
+.four-row{
+	margin-top: 180px;
+}
+.html-tag,
+.css-tag,
+.web-tag,
+.photo-tag{
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 5px;
+	float: left;
+}
+.html-tag{
+	width: 68px;
+	height:30px;
+	margin-left: -14px;
+}
+.css-tag{
+	width: 55px;
+	height:30px;
+    margin-left: 14px;
+}
+.web-tag{
+	width: 100px;
+	height:30px;
+    margin-left: 14px;
+}
+.photo-tag{
+	width: 90px;
+	height:30px;
+    margin-left: 14px;
+}
+.address-title p{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+/*++++++++++++++ Popular tags end+++++++++++++*/
+
+.location span{
+	font-size: 18px;
+	color: #000;
+}
+.location p{
+	font-size: 14px; 
+}
+.flow-title p{
+	margin-top: 42px;
+	font-size: 20px;
+	text-align: left;
+	color: #000;
+}
+
+.fotter-social{
+	margin-top: 20px;
+}
+.fotter-social ul li{
+	display: inline-block;
+}
+.fotter-social ul li{
+	width: 32px;
+	height: 32px;
+	border-radius: 10px;
+	border: 1px solid #898989;
+	text-align: center;
+	line-height: 32px;
+}
+
+.fotter-social ul a{
+	color: #000;
+}
+.fotter-social ul a:hover li{
+	color: #fff;
+	background-color: #e74e40;
+	border-color: #e74e40;
+}
+
+/*+++++++++++++++++++++++++ copy right +++++++++++++++++++++++++++*/
+
+#copy-right{ 
+	height:50px;
+	background: #363636;
+}
+#copy-right p{
+    color:#fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
